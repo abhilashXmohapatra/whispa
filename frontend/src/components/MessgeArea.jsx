@@ -134,7 +134,7 @@ const MessgeArea = () => {
               </div>
             </div>
             {/* messages area */}
-            <div className="md:h-[80vh] h-[83vh] py-2 w-full flex flex-col px-6 scroll-container gap-2">
+            <div className="md:h-[78vh] h-[83vh] py-2 w-full flex flex-col px-6 scroll-container gap-2">
               {messages &&
                 messages.map((mess) =>
                   mess.sender === userData._id ? (
